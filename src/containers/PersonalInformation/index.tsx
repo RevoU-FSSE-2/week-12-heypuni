@@ -86,7 +86,7 @@ const PersonalInformation = ( props: Props ) => {
                 formMik.setFieldError('email', 'Please Input Your Email');
               } if (!formMik.values.dateOfBirth) {
                 formMik.setFieldError('dateOfBirth', 'Please Input Your Birthdate [dd-mm-yyyy]');
-                  return;
+                return;
               } else {
                 props.handleNext();
               }

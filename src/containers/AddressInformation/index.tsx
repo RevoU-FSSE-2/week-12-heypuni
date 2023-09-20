@@ -43,7 +43,7 @@ const AddressInformation = ( props: Props ) => {
     })
 
       return (
-          <form onSubmit={formMik.handleSubmit}>
+          <>
            
             <div>  
               <Text>Address</Text>
@@ -116,7 +116,7 @@ const AddressInformation = ( props: Props ) => {
               Next
               </Button>
               </div>
-          </form>
+        </>
       )
   }
 

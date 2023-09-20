@@ -38,7 +38,7 @@ const AccountInformation = ( props: Props ) => {
     })
 
     return (
-    <form>
+    <>
     <div>
       <Text>Username</Text>
         <Input name="username" placeholder="Your username here" autoComplete='username'            
@@ -76,8 +76,8 @@ const AccountInformation = ( props: Props ) => {
         >
         Submit
     </Button>
-
-    </form>
+    </>
+   
   )
 };
 
